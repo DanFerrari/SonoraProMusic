@@ -19,11 +19,9 @@
     font-weight:bold;
     
     }
-    
-    main a img{
-    
-    width: 100px;
-    
-    height: 100px;
-    
+    a img{
+        width: 100px;
+        height: 100px;
     }
+    
+  
