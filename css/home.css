@@ -1,0 +1,29 @@
+*{
+
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    main a{
+    
+    text-decoration: none;
+    
+    color: black;
+    
+    font-weight:bold;
+    
+    }
+    
+    main a img{
+    
+    width: 100px;
+    
+    height: 100px;
+    
+    }
