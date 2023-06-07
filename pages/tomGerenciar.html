@@ -42,7 +42,7 @@
               <path
                 fill-rule="evenodd"
                 d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
-              /></svg>Musica</a>
+              /></svg>Instrumento</a>
 
           <button
             class="navbar-toggler col"
@@ -75,23 +75,15 @@
 
  
     <!-- BARRA PESQUISAR -->
-    <div class="container d-flex flex-row  justify-content-center  " >
-      <input class="form-control " id="bairro" type="text" aria-label="default input example" style="border-radius:5px 0 0 5px;">
-      <button style="width: 100px;border-radius:0 5px 5px 0; border: none;font-size:15px;">Pesquisar</button>
+    <div class="container d-flex flex-column  justify-content-center  " >
+      <label for="nome">Nome</label>
+      <input class="form-control " placeholder="Text Input" id="nome" type="text" aria-label="default input example" style="border-radius:5px 0 0 5px;">
+
                      
             
   </div>
 
-  <!--BOTÃO SELECIONAR-->
 
-
-
-  <div class="container d-flex flex-row  justify-content-center gap-2 ">
-   <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/cadastro.png" alt=""> Inserir Novo</button>
-   <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/documento.png" alt=""> Visualizar</button>
-                 
-          
-</div>
 
 
 <!--SELECIONAR-->
@@ -100,14 +92,24 @@
    
 
 
-                
-                  <select class="form-select" multiple aria-label="multiple select example" style="border: solid black 1px; height:500px">
+                  <label for="">Tom Musical</label>
+                  <select class="form-select" multiple aria-label="multiple select example" style="border: solid black 1px; height:100px">
                     <option selected>ana</option>
                     <option value="1">Joao</option>
                     <option value="2">Maria</option>
                     <option value="3">José</option>
                   </select>
              
+                    <!--BOTÃO SELECIONAR-->
+
+
+
+  <div class="container d-flex flex-row  justify-content-center gap-2 ">
+    <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/cadastro.png" alt=""> Alterar</button>
+    <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/documento.png" alt=""> Excluir</button>
+                  
+           
+ </div>
                 
                 
    

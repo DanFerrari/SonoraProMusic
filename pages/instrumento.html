@@ -42,7 +42,7 @@
               <path
                 fill-rule="evenodd"
                 d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
-              /></svg>Musico</a>
+              /></svg>Instrumento</a>
 
           <button
             class="navbar-toggler col"
@@ -75,102 +75,45 @@
     <h1 class="container d-flex align-itens-center justify-content-center">Instrumento</h1>
 
  
-    <!-- DADOS DO ENDEREÇO-->
-    <div class="container d-flex flex-column  justify-content-center gap-2 border border-dark " style="padding: 30px;">
-             <div class="container d-flex flex-row  justify-content-center gap-2">
-                      <div>
-                        <label for="logradouro" class="form-label">Logradouro</label>
-                        <input class="form-control" id="logradouro" type="text" aria-label="default input example">
-                      </div>
-
-                      <div style="width: 100px;">
-                        <label for="num" class="form-label">Numero</label>
-                        <input class="form-control" id="num" type="number" aria-label="default input example">
-                      </div>
-            </div>
-
-             <div class="container d-flex flex-row  justify-content-center gap-2">
-                      <div>
-                        <label for="complemento" class="form-label">Complemento</label>
-                        <input class="form-control" id="complemento" type="text" aria-label="default input example">
-                      </div>
-
-                      <div>
-                        <label for="bairro" class="form-label">Bairro</label>
-                        <input class="form-control" id="bairro" type="text" aria-label="default input example">
-                      </div>
-            </div>
-
-             <div class="container d-flex flex-row  justify-content-center gap-2">
-                      <div>
-                        <label for="cidade" class="form-label">Cidade</label>
-                        <input class="form-control" id="cidade" type="text" aria-label="default input example">
-                      </div>
-
-                      <div style="width: 70px;">
-                        <label for="uf" class="form-label">UF</label>
-                        <input class="form-control" id="uf" type="text" aria-label="default input example">
-                      </div>
-
-                      <div>
-                        <label for="cep" class="form-label">CEP</label>
-                        <input class="form-control" id="cep" type="number" aria-label="default input example">
-                      </div>
-            </div>
-
-             <div class="container d-flex flex-row  justify-content-start gap-2">
-                      <div>
-                        <label for="telefone" class="form-label">Telefone</label>
-                        <input class="form-control" id="telefone" type="tel" aria-label="default input example">
-                      </div>
-
-                      
-            </div>
-            
+    <!-- BARRA PESQUISAR -->
+    <div class="container d-flex flex-row  justify-content-center  " >
+      <input class="form-control " id="bairro" type="text" aria-label="default input example" style="border-radius:5px 0 0 5px;">
+      <button style="width: 100px;border-radius:0 5px 5px 0; border: none;font-size:15px;">Pesquisar</button>
+                     
             
   </div>
 
+  <!--BOTÃO SELECIONAR-->
+
+
+
+  <div class="container d-flex flex-row  justify-content-center gap-2 ">
+   <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/cadastro.png" alt=""> Cadastrar</button>
+   <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/documento.png" alt=""> Visualizar</button>
+                 
+          
+</div>
+
+
 <!--SELECIONAR-->
 
-<div class="container d-flex flex-column  justify-content-start gap-3 py-4 border border-dark">
+
    
-    <div class="d-flex gap-2 flex-row align-items-end">
-      
-              <div>        
-                <select class="form-select" id="endereco" aria-label="Default select example" style="width:300px;">
-                  <option selected>-</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
 
-                        <button type="button" class="btn btn-outline-dark" style="height:40px;">Inserir</button>
-    
-    </div>
-    <div class="d-flex justify-content-between align-items-center gap-2">
 
-                <div style="width: 300px;">
-                  <select class="form-select" multiple aria-label="multiple select example">
-                    <option selected>Selecione</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                
+                  <select class="form-select" multiple aria-label="multiple select example" style="border: solid black 1px; height:500px">
+                    <option selected>ana</option>
+                    <option value="1">Joao</option>
+                    <option value="2">Maria</option>
+                    <option value="3">José</option>
                   </select>
-                </div>
+             
                 
-                <div class="d-flex flex-column gap-2">
-                  <button type="button" class="btn btn-light">Adicionar</button>
-                  <button type="button" class="btn btn-danger">Remover</button>
-                </div>
-    </div>
                 
-</div>
-    
-<div class="d-flex  align-items-center justify-content-center gap-4 py-4">
-  <button type="button" class="btn btn-success btn-lg">Salvar</button>
-  <button type="button" class="btn btn-danger btn-lg">Cancelar</button>
-</div>
+   
+                
+
 
 
 

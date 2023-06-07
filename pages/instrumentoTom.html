@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Instrumento</title>
+    <title>Instrumento Cadastro</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -42,7 +42,7 @@
               <path
                 fill-rule="evenodd"
                 d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
-              /></svg>Musica</a>
+              /></svg>Instrumento Cadastro</a>
 
           <button
             class="navbar-toggler col"
@@ -70,14 +70,17 @@
         </div>
       </nav>
 
-<main class="container-fluid d-flex flex-column gap-2 mt-5 ">
+<main class="container-fluid d-flex flex-column wh-100  justify-content-center gap-2 mt-5   border border-dark p-4">
 
-
+    <h1  class="container d-flex align-itens-center justify-content-center">Formato</h1>
+    
  
     <!-- BARRA PESQUISAR -->
-    <div class="container d-flex flex-row  justify-content-center  " >
-      <input class="form-control " id="bairro" type="text" aria-label="default input example" style="border-radius:5px 0 0 5px;">
-      <button style="width: 100px;border-radius:0 5px 5px 0; border: none;font-size:15px;">Pesquisar</button>
+    <div class="container d-flex flex-column gap-2  justify-content-center  " >
+        <label for="descricao">Descrição</label>
+        <input class="form-control " id="descricao" type="text" aria-label="default input example" >
+    <label for="sigla">Sigla</label>
+      <input class="form-control " id="sigla" type="text" aria-label="default input example" style=" width: 100px;">
                      
             
   </div>
@@ -87,27 +90,13 @@
 
 
   <div class="container d-flex flex-row  justify-content-center gap-2 ">
-   <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/cadastro.png" alt=""> Inserir Novo</button>
-   <button style="width:300px; height: 50px;border: none; border-radius:5px;"><img style="width:5vw;" src="../imgs/documento.png" alt=""> Visualizar</button>
+   <button style="width:300px; height: 50px;border: none; border-radius:5px;"> Salvar</button>
+   <button style="width:300px; height: 50px;border: none; border-radius:5px;"> Cancelar</button>
                  
           
 </div>
 
 
-<!--SELECIONAR-->
-
-
-   
-
-
-                
-                  <select class="form-select" multiple aria-label="multiple select example" style="border: solid black 1px; height:500px">
-                    <option selected>ana</option>
-                    <option value="1">Joao</option>
-                    <option value="2">Maria</option>
-                    <option value="3">José</option>
-                  </select>
-             
                 
                 
    
